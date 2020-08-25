@@ -1,0 +1,73 @@
+h2{
+    font-family:Helvetica;
+    font-size: 32pt;
+    font-style: regular;
+
+}
+ #title {
+text-align: center;
+
+ }
+#brianna {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navsidebar{
+    font-family:Helvetica;
+    font-size:24pt;
+    font-style: medium; 
+}
+
+}
+
+#imagegrid {
+   display:grid;
+   
+   grid-template-columns:1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+   grid-template-areas:"title title title";
+   grid-template-areas:" nav pic1 pic2";
+   grid-template-areas:"pic3 pic3 pic2";
+   grid-template-areas: "about about";
+}
+
+
+body {background-color:#F8F1E1;
+    
+}
+
+#title {
+    padding-top: 152px;
+    padding-bottom:152px;
+
+}
+
+#nav {
+    position:absolute;
+    padding-left:226px;
+    padding-top: 130px;
+    line-height:36px;
+
+}
+
+#pic1 {
+    position:absolute;
+    padding-left: 350px; ;
+}
+#nav {
+    box-sizing: 187px;
+}
+
+#pic2 {
+    padding-left: 1300px;
+}
+
+body {background-image: url(../images/design-background.png); width=1920px}
+
+
