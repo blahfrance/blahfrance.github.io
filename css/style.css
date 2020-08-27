@@ -20,13 +20,15 @@ ul {
 
 .grid-1{
     display:grid;
+    margin-left:70px;
+    margin-right:70px;
     margin-left: 67px;
     margin-right: 67px;
     grid-template-columns: 53px, 94px, 72px, 100px, 102px, 109px, 106px, 201px;
     grid-template-rows: 167px, 79px, 156px, 68px, 20px, 105px;
     grid-template-areas:
      ". . . . title title. ."
-     ". .pic1 pic1 pic1. . ."
+     ". . pic1 pic1 pic1. . ."
      ". nav pic1 pic1 pic1 . . pic2"
      ". . . . . . . pic2 "
      "pic3 pic3 pic3 . . . . pic2"
