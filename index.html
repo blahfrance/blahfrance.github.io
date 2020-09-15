@@ -3,8 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;400&family=Raleway&display=swap" rel="stylesheet">
+    <script src="java.js"></script>
+    <script src="jquery.js"></script>
     <title>Brianna LaFrance</title>
+    <style>
+        li {color:black;}
+     </style>
+
+  
 </head>
 <body>
    <section id=title>
@@ -12,12 +20,13 @@
    </section>
 
    <section id=nav>
-    <ul>
-        <li><a href="about">ABOUT</a></li>
-        <li><a href="projects">PROJECTS</a></li>
-        <li><a href="caststudies">CASE STUDIES</a></li>
-        <li><a href="art">ART</a></li>
+        <ul>
+        <li><a href="#aboutheader">ABOUT</a></li>
+        <li><a  href="#projectsheader">PROJECTS</a></li>
+        <li><a href="#casestudiesheader">CASE STUDIES</a></li>
+        <li><a  href="#skillsheader">SKILLS</a></li>
     </ul>
+    
    </section>
 
    <section id=imagegrid>
@@ -36,8 +45,10 @@
 
    </section>
 
-   <div  id=scroll>
-   <p>SCROLL</p>
+   <div class="scrolltext">
+   <section class="bounce">
+   <p>SCROLL</p><a class="fa fa-arrow-down fa-2x" href="#"></a> 
+</section>
    </div>
 
    <div class="vertical_dotted_line"></div>
@@ -47,21 +58,21 @@
    <section id=aboutheader>
     <p>ABOUT</p> 
    </div>
-
+   
    <div id=itsme>
     <P> It's me, Brianna.</P>
    </div>
 
     <div id=meimage>
-    <img src="images/IMG_0376 3.jpg" width=400px>
+    <img src="images/IMG_0376 4.jpg" width=400px>
     </div>
     
     <div id=meparagraph>
-        <p>I am a hard working Graphic Designer & UX UI Designer that loves to play <br>with layout and typography. 
-        My background in a startup atmosphere has <br>prepared me to be a team player, quick thinking problem solver, 
-        and to teach <br>myself new skills. Whether designing promotional content, an editorial layout <br>or a new website my goal is to tell a story.  </p>
+        <p>I am a hard working Graphic Designer & UX UI Designer that loves <br>to play with layout and typography. 
+        My background in a startup <br>atmosphere has prepared me to be a team player, quick thinking <br> problem solver, 
+        and to teach myself new skills. Whether designing <br>promotional content, an editorial layout or a new website my goal <br> is to tell a story.  </p>
     </div>
-
+    <a name="about"></a>
     <div class="vertical_dotted_line"></div>
    <hr>
 
@@ -70,6 +81,25 @@
     <p>PROJECTS</p> 
    </div>
 
+   
+   <a name="projects"></a>
+<div class="row">
+    <div class="column">
+        <img src="images/thumbnail-newsletter.png" width=378px>
+        <img src= "images/thumbnail-cassiopia.png" width=378px>
+    </div>
+    <div class="column">
+        <img src= "images/thumbnail-flyer.png" width=378px>
+        <img src="images/thumbnail-skintype.png" width=378px>
+    </div>
+    <div class="column">
+        <img src="images/thumbnail-costory.png" width=378px>
+        <img src="images/thumbnail-bundlestory.png" width=378px>
+    </div>
+</div>
+
+
+   
    <div class="vertical_dotted_line"></div>
    <hr>
 
@@ -84,7 +114,7 @@
 
    <div id="circlebrown">
    <section id=skillsheader>
-    <p>SKILLZ</p> 
+    <p>SKILLS</p> 
    </div>
 
 
